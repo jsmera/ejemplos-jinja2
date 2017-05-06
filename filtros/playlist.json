@@ -1,0 +1,382 @@
+{
+  "items" : 
+  [ 
+    {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/4O9K2VUsGve0wJl49AG0Mu",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/da20998ea6fe35a9c34e42301aff7a4668283577",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/869a27f0a3ec9ae9e953ba8e9b7a11c51a5a8e20",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/dbe68c2ed59391bb335ec5bff580f3daebf2f73a",
+            "width" : 64
+          } ],
+          "name" : "De Mysteriis Dom Sathanas"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/0dR10i73opHXuRuLbgxltM",
+          "name" : "Mayhem"
+        } ],
+        "duration_ms" : 347253,
+        "href" : "https://api.spotify.com/v1/tracks/6KcJKGUQOqpOEzUPoHrq45",
+        "name" : "Funeral Fog"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/4O9K2VUsGve0wJl49AG0Mu",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/da20998ea6fe35a9c34e42301aff7a4668283577",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/869a27f0a3ec9ae9e953ba8e9b7a11c51a5a8e20",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/dbe68c2ed59391bb335ec5bff580f3daebf2f73a",
+            "width" : 64
+          } ],
+          "name" : "De Mysteriis Dom Sathanas"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/0dR10i73opHXuRuLbgxltM",
+          "name" : "Mayhem"
+        } ],
+        "duration_ms" : 383053,
+        "href" : "https://api.spotify.com/v1/tracks/6NNzTfx7q6BSGot1bryQuk",
+        "name" : "Freezing Moon"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/4O9K2VUsGve0wJl49AG0Mu",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/da20998ea6fe35a9c34e42301aff7a4668283577",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/869a27f0a3ec9ae9e953ba8e9b7a11c51a5a8e20",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/dbe68c2ed59391bb335ec5bff580f3daebf2f73a",
+            "width" : 64
+          } ],
+          "name" : "De Mysteriis Dom Sathanas"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/0dR10i73opHXuRuLbgxltM",
+          "name" : "Mayhem"
+        } ],
+        "duration_ms" : 380853,
+        "href" : "https://api.spotify.com/v1/tracks/0lJGL7nibE9E4lpTc0nlSf",
+        "name" : "Pagan Fears"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/4O9K2VUsGve0wJl49AG0Mu",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/da20998ea6fe35a9c34e42301aff7a4668283577",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/869a27f0a3ec9ae9e953ba8e9b7a11c51a5a8e20",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/dbe68c2ed59391bb335ec5bff580f3daebf2f73a",
+            "width" : 64
+          } ],
+          "name" : "De Mysteriis Dom Sathanas"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/0dR10i73opHXuRuLbgxltM",
+          "name" : "Mayhem"
+        } ],
+        "duration_ms" : 381853,
+        "href" : "https://api.spotify.com/v1/tracks/4nG0jWTn2M25q7tTqO4SCP",
+        "name" : "De Mysteriis Dom Sathanas"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/4HMwYH354KSHE6Ah6arbZb",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/3fa857e24182f8649644dbeef5c2d1c13126148a",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/933868a243012fe8aa7fc701ea51868fbdc67426",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/1d8a3973eca1fa0546e271bbc6c94ca4208d1a09",
+            "width" : 64
+          } ],
+          "name" : "Deathcrush"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/0dR10i73opHXuRuLbgxltM",
+          "name" : "Mayhem"
+        } ],
+        "duration_ms" : 212986,
+        "href" : "https://api.spotify.com/v1/tracks/34XGWkS6RPt6GxLWkkYSVx",
+        "name" : "Deathcrush"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/4HMwYH354KSHE6Ah6arbZb",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/3fa857e24182f8649644dbeef5c2d1c13126148a",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/933868a243012fe8aa7fc701ea51868fbdc67426",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/1d8a3973eca1fa0546e271bbc6c94ca4208d1a09",
+            "width" : 64
+          } ],
+          "name" : "Deathcrush"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/0dR10i73opHXuRuLbgxltM",
+          "name" : "Mayhem"
+        } ],
+        "duration_ms" : 212760,
+        "href" : "https://api.spotify.com/v1/tracks/6ezFs4op6twpb9y0Ubi1E9",
+        "name" : "Chainsaw Gutsfuck"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/3hcUcQHN9rEkYWzcyj8BMs",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/9c9caac9dbb5918107668f6f89fee73a99fc8e19",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/def0bfe39573a4a86dd4e77441d5e89aaf81ad5e",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/448052f9795d071e71d7e8f662aad719a0da9988",
+            "width" : 64
+          } ],
+          "name" : "Wolf's Lair Abyss"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/0dR10i73opHXuRuLbgxltM",
+          "name" : "Mayhem"
+        } ],
+        "duration_ms" : 326040,
+        "href" : "https://api.spotify.com/v1/tracks/13KcKVgL0RBfZrbFp2ku2M",
+        "name" : "I Am Thy Labyrinth"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/70pc0RiLN8DC7BDq2Ah7Ph",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/0ce65de5b0ccefec3281330b916e3d67242c4325",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/152f46799da776125bfebd11dd049831764f600d",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/fc59f4c36459bc00424d9a34c19fae042687245d",
+            "width" : 64
+          } ],
+          "name" : "Anthems To The Welkin At Dusk"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/6jPWrSmxOd9mj7Xaj4EP2Y",
+          "name" : "Emperor"
+        } ],
+        "duration_ms" : 314906,
+        "href" : "https://api.spotify.com/v1/tracks/1rUNBnYAYqA1XRPiHAnJ0L",
+        "name" : "Ye Entrancepmerium"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/70pc0RiLN8DC7BDq2Ah7Ph",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/0ce65de5b0ccefec3281330b916e3d67242c4325",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/152f46799da776125bfebd11dd049831764f600d",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/fc59f4c36459bc00424d9a34c19fae042687245d",
+            "width" : 64
+          } ],
+          "name" : "Anthems To The Welkin At Dusk"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/6jPWrSmxOd9mj7Xaj4EP2Y",
+          "name" : "Emperor"
+        } ],
+        "duration_ms" : 269866,
+        "href" : "https://api.spotify.com/v1/tracks/2WwNHRBZEXGCrc1uJCFIPQ",
+        "name" : "Thus Spake the Nightspirit"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/70pc0RiLN8DC7BDq2Ah7Ph",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/0ce65de5b0ccefec3281330b916e3d67242c4325",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/152f46799da776125bfebd11dd049831764f600d",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/fc59f4c36459bc00424d9a34c19fae042687245d",
+            "width" : 64
+          } ],
+          "name" : "Anthems To The Welkin At Dusk"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/6jPWrSmxOd9mj7Xaj4EP2Y",
+          "name" : "Emperor"
+        } ],
+        "duration_ms" : 497600,
+        "href" : "https://api.spotify.com/v1/tracks/7kC70zdvEXPU1wwpgceFH7",
+        "name" : "With Strength I Burn"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/0WqjYy5pfW8rzV55mEBSlX",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/7bc6e41dd9c1a6c4c13f843c84c2e4f0c0484b6e",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/9aac332b9f3abe870f9f9cd1deb4f7e1cbee7ab9",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/14e191351e72692d4a806b8fa5b5872224c33c4a",
+            "width" : 64
+          } ],
+          "name" : "In The Nightside Eclipse"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/6jPWrSmxOd9mj7Xaj4EP2Y",
+          "name" : "Emperor"
+        } ],
+        "duration_ms" : 546133,
+        "href" : "https://api.spotify.com/v1/tracks/09JeoCSR7bg1ZNZWcaGv9K",
+        "name" : "Into The Infinity Of Thoughts"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/0WqjYy5pfW8rzV55mEBSlX",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/7bc6e41dd9c1a6c4c13f843c84c2e4f0c0484b6e",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/9aac332b9f3abe870f9f9cd1deb4f7e1cbee7ab9",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/14e191351e72692d4a806b8fa5b5872224c33c4a",
+            "width" : 64
+          } ],
+          "name" : "In The Nightside Eclipse"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/6jPWrSmxOd9mj7Xaj4EP2Y",
+          "name" : "Emperor"
+        } ],
+        "duration_ms" : 360840,
+        "href" : "https://api.spotify.com/v1/tracks/1i8We7cPkailyyYLRQJUPa",
+        "name" : "I Am the Black Wizards"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/0WqjYy5pfW8rzV55mEBSlX",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/7bc6e41dd9c1a6c4c13f843c84c2e4f0c0484b6e",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/9aac332b9f3abe870f9f9cd1deb4f7e1cbee7ab9",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/14e191351e72692d4a806b8fa5b5872224c33c4a",
+            "width" : 64
+          } ],
+          "name" : "In The Nightside Eclipse"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/6jPWrSmxOd9mj7Xaj4EP2Y",
+          "name" : "Emperor"
+        } ],
+        "duration_ms" : 288733,
+        "href" : "https://api.spotify.com/v1/tracks/5JQJFtmq1NxX1hTFfLg4TT",
+        "name" : "Inno A Satana"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/0WqjYy5pfW8rzV55mEBSlX",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/7bc6e41dd9c1a6c4c13f843c84c2e4f0c0484b6e",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/9aac332b9f3abe870f9f9cd1deb4f7e1cbee7ab9",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/14e191351e72692d4a806b8fa5b5872224c33c4a",
+            "width" : 64
+          } ],
+          "name" : "In The Nightside Eclipse"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/6jPWrSmxOd9mj7Xaj4EP2Y",
+          "name" : "Emperor"
+        } ],
+        "duration_ms" : 508533,
+        "href" : "https://api.spotify.com/v1/tracks/6BzW6WSOL3ay7sz3rEilZ6",
+        "name" : "A Fine Day To Die"
+    }, {
+        "album" : {
+          "href" : "https://api.spotify.com/v1/albums/716vMLD6i5NfwDgMmtGmV5",
+          "images" : [ {
+            "height" : 640,
+            "url" : "https://i.scdn.co/image/020e9453b04665976a0bc73a1c15ac3b60836a5f",
+            "width" : 640
+          }, {
+            "height" : 300,
+            "url" : "https://i.scdn.co/image/e451a76097ce871c6364242b191d75673e896312",
+            "width" : 300
+          }, {
+            "height" : 64,
+            "url" : "https://i.scdn.co/image/d49d7dd32b7932bf76f51ac19837e852024c744b",
+            "width" : 64
+          } ],
+          "name" : "Live Inferno"
+        },
+        "artists" : [ {
+          "href" : "https://api.spotify.com/v1/artists/6jPWrSmxOd9mj7Xaj4EP2Y",
+          "name" : "Emperor"
+        } ],
+        "duration_ms" : 334786,
+        "href" : "https://api.spotify.com/v1/tracks/3Q1NFTLXaiiMXmfFpICS5G",
+        "name" : "In the Wordless Chamber"
+    }
+  ]
+}
+

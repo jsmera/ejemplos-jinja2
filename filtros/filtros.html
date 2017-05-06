@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    {% macro image(path, width, height, text, class) -%}
+      <img src="{{ path }}" class="{{ class }} "alt="{{ text }}" width="{{ width }}" height="{{ height }}" />
+    {% endmacro %}
+    <h1 class="title">My {{ title }}</h1>
+    <section class="box">
+      {% for song in songs %}
+        <div class="card">
+          {{ image(song['album']['images'][1]['url'], 300, 300, song['name'], 'card-img-top') }}
+          <div class="card-block">
+            <h4 class="card-title">{{ song['name'] }}</h4>
+            <p class="card-text">Artista: <a href="{{ song['artists'][0]['href'] }}">{{ song['artists'][0]['name'] }}</a>
+            <br>
+            Duracion: {{ song['duration_ms']//60000 }} minutos
+            <br>
+            <a href="{{ song['href'] }}" class="btn btn-primary">Escuchar</a>
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+    <h1 class="title">Mayhem</h1>
+    <section class="box">
+      {% for song in songs if song['artists'][0]['name'] == "Mayhem" %}
+        <div class="card">
+          {{ image(song['album']['images'][1]['url'], 300, 300, song['name'], 'card-img-top') }}
+          <div class="card-block">
+            <h4 class="card-title">{{ song['name'] }}</h4>
+            <p class="card-text">Artista: <a href="{{ song['artists'][0]['href'] }}">{{ song['artists'][0]['name'] }}</a>
+            <br>
+            Duracion: {{ song['duration_ms']//60000 }} minutos
+            <br>
+            <a href="{{ song['href'] }}" class="btn btn-primary">Escuchar</a>
+            </p>
+          </div>
+        </div>
+      {% endfor %}
+    </section>
+    <h1 class="title">Por Duracion</h1>
+    <section class="box">
+      {% for song in songs|groupby('duration_ms') %}
+        {% for noise in song.list %}
+          <div class="card">
+            {{ image(noise['album']['images'][1]['url'], 300, 300, noise['name'], 'card-img-top') }}
+            <div class="card-block">
+              <h4 class="card-title"></h4>
+              <p class="card-text">Artista: <a href="{{ noise['artists'][0]['href'] }}">{{ noise['artists'][0]['name'] }}</a>
+              <br>
+              Duracion: {{ noise['duration_ms']//60000 }} minutos
+              <br>
+              <a href="{{ noise['href'] }}" class="btn btn-primary">Escuchar</a>
+              </p>
+            </div>
+          </div>
+        {% endfor %}
+      {% endfor %}
+    </section>
+  </body>
+</html>
