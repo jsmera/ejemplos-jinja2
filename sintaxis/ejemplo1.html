@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>{{ title }}</title>
+	</head>
+	<body>
+		<h1>Ciclos</h1>
+
+		<ul>
+			{% for item in cities %}
+				<li>{{ item }}</li>
+			{% endfor %}
+		</ul>
+		
+		<!-- Condicionales -->
+		{% if user_authenticated %}
+			<p>Usuario autenticado</p>
+		{% endif %}
+
+		{% if number is divisibleby 5 %}
+			{{ number }} es multiplo de 5
+			{% else %}
+			 {{ number }} no es multiplo de 5
+		{% endif %}
+
+		<!-- Funciones -->
+		{% macro image(path, width, height, text) -%}
+			<img src="{{ path }}" alt="{{ text }}" width="{{ width }}" height="{{ height }}" />
+		{% endmacro %}
+
+		<h1>Filósofos</h1>
+		{% for filo in imgs %}
+			{{ image(filo.url, 200, 200, filo.nombre) }}
+			<p>{{ filo.nombre }}</p>
+		{% endfor %}
+
+		<!-- Cambio de valores -->
+		{% set number = 81 %}
+
+		{% if number <= 100 and number is divisibleby 3 %}
+			{{ number }} es menor a 100 y multiplo de 3		
+		{% endif %}
+	</body>
+</html>
