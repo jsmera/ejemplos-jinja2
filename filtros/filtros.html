@@ -69,7 +69,7 @@
     </section>
     <h1 class="title">Por columnas y filas</h1>
     <section class="box">
-      {% for row in songs|slice(5) %}
+      {% for row in songs|batch(3, '&nbsp;') %}
         {% for song in row %}
           <div class="card">
             {{ image(song['album']['images'][1]['url'], 300, 300, song['name'], 'card-img-top') }}
