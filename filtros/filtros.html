@@ -55,12 +55,31 @@
           <div class="card">
             {{ image(noise['album']['images'][1]['url'], 300, 300, noise['name'], 'card-img-top') }}
             <div class="card-block">
-              <h4 class="card-title"></h4>
+              <h4 class="card-title">{{ noise['name'] }}</h4>
               <p class="card-text">Artista: <a href="{{ noise['artists'][0]['href'] }}">{{ noise['artists'][0]['name'] }}</a>
               <br>
               Duracion: {{ noise['duration_ms']//60000 }} minutos
               <br>
               <a href="{{ noise['href'] }}" class="btn btn-primary">Escuchar</a>
+              </p>
+            </div>
+          </div>
+        {% endfor %}
+      {% endfor %}
+    </section>
+    <h1 class="title">Por columnas y filas</h1>
+    <section class="box">
+      {% for row in songs|slice(5) %}
+        {% for song in row %}
+          <div class="card">
+            {{ image(song['album']['images'][1]['url'], 300, 300, song['name'], 'card-img-top') }}
+            <div class="card-block">
+              <h4 class="card-title">{{ loop.index }} {{ song['name'] }}</h4>
+              <p class="card-text">Artista: <a href="{{ song['artists'][0]['href'] }}">{{ song['artists'][0]['name'] }}</a>
+              <br>
+              Duracion: {{ song['duration_ms']//60000 }} minutos
+              <br>
+              <a href="{{ song['href'] }}" class="btn btn-primary">Escuchar</a>
               </p>
             </div>
           </div>
